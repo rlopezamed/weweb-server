@@ -1,0 +1,110 @@
+{
+    "3a407b45-9c63-471d-b09b-15cf797e5566": {
+        "id": "0c5c7db1-687e-455a-83a6-746199c753b8",
+        "name": "Sound",
+        "designId": "45b21738-8d56-4b52-aa29-eefa7e4f8a60",
+        "pluginId": "3a407b45-9c63-471d-b09b-15cf797e5566",
+        "publicData": {}
+    },
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "e0fb5751-06c8-41fe-aae6-1cb9bbd1d7eb",
+        "name": "REST API",
+        "designId": "45b21738-8d56-4b52-aa29-eefa7e4f8a60",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    },
+    "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
+        "id": "2cf8f6a9-0566-45ed-a95c-56a09bc8c9f8",
+        "name": "Date",
+        "designId": "45b21738-8d56-4b52-aa29-eefa7e4f8a60",
+        "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
+        "publicData": {
+            "favoriteFormat": "MM/DD hh:mmA"
+        }
+    },
+    "69d4a5bb-09a3-4f3d-a94e-667c21c057eb": {
+        "id": "fa7a93bf-6baa-4629-85fb-eeab5d0320f8",
+        "name": "NPM",
+        "designId": "45b21738-8d56-4b52-aa29-eefa7e4f8a60",
+        "pluginId": "69d4a5bb-09a3-4f3d-a94e-667c21c057eb",
+        "publicData": {
+            "packages": [
+                {
+                    "link": "https://github.com/ably/ably-js#readme",
+                    "name": "ably",
+                    "version": "2.10.1",
+                    "instanceName": "ably"
+                },
+                {
+                    "link": "https://www.papaparse.com/",
+                    "name": "papaparse",
+                    "version": "5.5.3",
+                    "instanceName": "Papa"
+                }
+            ]
+        }
+    },
+    "66a79c98-70e7-4bc4-8859-20776b024ec2": {
+        "id": "de63a5b4-3fb3-4e95-b4b5-95345f7ae7b2",
+        "name": "PWA",
+        "designId": "45b21738-8d56-4b52-aa29-eefa7e4f8a60",
+        "pluginId": "66a79c98-70e7-4bc4-8859-20776b024ec2",
+        "publicData": {}
+    },
+    "cd33cf33-e29f-4e8c-ac26-b997fe507ce7": {
+        "id": "a94a1a7f-9bfd-4d74-b64a-fb790a366db4",
+        "name": "Xano",
+        "designId": "45b21738-8d56-4b52-aa29-eefa7e4f8a60",
+        "pluginId": "cd33cf33-e29f-4e8c-ac26-b997fe507ce7",
+        "publicData": {
+            "domain": "xzmi-gnsu-l07f.n7d.xano.io",
+            "realtimeConnectionHash": "q-KilB6iC1sTTTtLnTZTPBaLtv8"
+        }
+    },
+    "f5856798-485d-47be-b433-d43d771c64e1": {
+        "id": "429f14f2-79eb-44fe-b63a-72ddd2732771",
+        "name": "Xano Auth",
+        "designId": "45b21738-8d56-4b52-aa29-eefa7e4f8a60",
+        "pluginId": "f5856798-485d-47be-b433-d43d771c64e1",
+        "publicData": {
+            "roles": [
+                {
+                    "id": "801e2e4a-640a-4125-8a37-a6d8ece62100",
+                    "name": "Super Admin",
+                    "createdAt": "2025-07-26T16:25:47.586Z"
+                },
+                {
+                    "id": "0e4b7e2d-ba62-4533-a6f2-7aa059d75abf",
+                    "name": "Admin",
+                    "createdAt": "2025-07-26T16:25:53.799Z"
+                },
+                {
+                    "id": "f1a95169-7958-4e67-a638-1a4b1fd1617a",
+                    "name": "Supervisor",
+                    "createdAt": "2025-07-26T16:25:59.030Z"
+                },
+                {
+                    "id": "aecc16f1-f267-4c43-a68b-874e3a842534",
+                    "name": "Users",
+                    "createdAt": "2025-07-26T16:26:03.068Z"
+                }
+            ],
+            "domain": "xzmi-gnsu-l07f.n7d.xano.io",
+            "getMeEndpoint": "https://xzmi-gnsu-l07f.n7d.xano.io/api:Hz0XAmBE/auth/me",
+            "globalHeaders": [],
+            "loginEndpoint": "https://xzmi-gnsu-l07f.n7d.xano.io/api:Hz0XAmBE/auth/login",
+            "signupEndpoint": "https://xzmi-gnsu-l07f.n7d.xano.io/api:Hz0XAmBE/auth/signup",
+            "socialProviders": {},
+            "withCredentials": false,
+            "afterForbiddenPageId": "545f87d0-14ee-4288-b38f-4f311b94e9e2",
+            "afterNotSignInPageId": "0696408b-370d-458f-ac94-fca0583d3d39"
+        }
+    },
+    "01af5352-af71-4382-844b-2ec141ff243b": {
+        "id": "d18a9803-5b91-4513-802a-7c34b18748be",
+        "name": "OpenID",
+        "designId": "45b21738-8d56-4b52-aa29-eefa7e4f8a60",
+        "pluginId": "01af5352-af71-4382-844b-2ec141ff243b",
+        "publicData": {}
+    }
+}

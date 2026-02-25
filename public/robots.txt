@@ -1,0 +1,3 @@
+User-agent:*
+Disallow:
+Sitemap: https://medchat.advantismed.com/sitemap.xml
